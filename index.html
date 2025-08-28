@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>Responsive CV</title>
+
+
+     <!--Box icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/Css.css">
+
+</head>
+
+<body> 
+
+   
+<!--Header-->
+
+  <header class="l-header" id="header">
+
+      <nav class="nav bd-container">
+
+        <a href="#" class="nav--logo">Corona</a>
+
+
+
+        <div class="nav--menu" id="nav-menu">
+
+           <ul class="nav--list">
+              <li class="nav--item">
+
+                <a href="#home" class="nav--link active-link">
+                  <i class='bx bxs-home nav--icon' ></i>Home
+                </a>
+              </li>
+
+              <li class="nav--item">
+                <a href="#profile" class="nav--link">
+                    <i class='bx bxs-balloon nav--icon'></i>Profile
+                </a>
+              </li>
+
+              <li class="nav--item">
+                <a href="#education" class="nav--link">
+                  <i class='bx bxs-book-bookmark nav--icon'></i>Education
+                </a>
+              </li>
+
+              <li class="nav--item">
+                <a href="#skills" class="nav--link">
+                  <i class='bx bx-code nav--icon'></i>Skills
+                </a>
+              </li>
+
+              <li class="nav--item">
+                <a href="#experience" class="nav--link">
+                  <i class='bx bxs-briefcase-alt nav--icon'></i>Experience
+                </a>
+              </li>
+
+              <li class="nav--item">
+                <a href="#certificates" class="nav--link">
+                  <i class='bx bx-award nav--icon' ></i>Certificates
+                </a>
+              </li>
+
+              <li class="nav--item">
+                <a href="#certificates" class="nav--link">
+                  <i class='bx bx-extension nav--icon' ></i>References
+                </a>
+              </li>
+            </ul>
+        </div>
+
+
+
+        <div class="nav--toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt '></i>
+        </div>
+      </nav>
+
+  </header>
+
+
+
+   <main class="l-main bd-container">
+
+  <!--Todos los elementos dentro este div , es generado en PDF-->
+
+  <div class="resume" id="area-cv">
+     <div class="resume--left">
+ 
+      <!--======================HOME====================-->
+     <section class="home" id="home">
+        <div class="home--container section bd-grid">
+          <div class="home--data bd-grid">
+            <img src="./img/Moy.jpg" alt="" class="home--img">
+
+            <h1 class="home--title">CORONA <b>MOISES</b></h1>
+            <h3 class="home--profession">Software Engineer</h3>
+
+            <!--Button to download your CV  saved in the PDF folder
+            Available for mobile-->
+
+     
+            <div>
+              <a download="" href="./PDF/CVMoises.pdf" class="home--button-movil">Download</a>
+            </div>
+          </div>
+
+          <div class="home--address">
+            <span class="home--information">
+              <i class='bx bx-map home--icon '></i> Puebla - Mexico
+            </span>
+
+            <span class="home--information">
+              <a href="mailto:moyjump@proton.me" class="link--home">
+                <i class='bx bxl-gmail home--icon'></i> moyjump@proton.me
+              </a>
+              
+            </span>
+
+            <span class="home--information">
+              <a href="https://api.whatsapp.com/send?phone=522215283442&text=Hello,%20more%20information!" 
+              class="link--home"> <i class='bx bxs-phone home--icon'></i> WhatsApp </a>
+            </span>
+          </div>
+
+
+        </div>
+
+        <!--Buttom Change theme -->
+
+        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+        <i class='bx bx-download generate-PDF' title="Generate PDF" id="resume-button"></i>
+      </section>
+
+
+     <!-- ============================================= SOCIAL =======================================-->
+      <section class="social section">
+        <h2 class="section-title">SOCIAL</h2>
+
+        <div class="social--container bd-grid">
+
+          <a href="https://www.linkedin.com/" target="_blank" class="social--link">
+            <i class='bx bxl-linkedin-square social--icon'></i>moisescorona
+          </a>
+
+          <a href="https://www.instagram.com/" target="_blank" class="social--link">
+           <i class='bx bxl-instagram social--icon' ></i>moises.corona1
+          </a>
+
+          <a href="https://github.com/MoisesCorona" target="_blank" class="social--link">
+            <i class='bx bxl-github'></i>  MoisesCorona
+          </a>
+
+        </div>
+      </section>
+    
+
+<!-- ========================================= PROFILE ===========================================-->
+
+    <section class="profile section" id="profile">
+
+      <h2 class="section-title">Profile</h2>
+
+      <p class="profile-description">
+       Ingeniero de QA en Innormax, con experiencia en automatización de pruebas end-to-end y validación funcional de aplicaciones web. 
+       Especializado en herramientas como Playwright, Typescrip, Git y metodologías Ágil/Scrum para garantizar entregas continuas y de alta calidad. 
+       Competente en diseño de test cases, ejecución de pruebas manuales y automatizadas, integración con CI/CD pipelines y análisis de resultados para optimización del producto.
+      </p>
+    </section>
+
+
+    <section class="education-section" id="education">
+
+      <h2 class="section-title">Education</h2>
+
+      <div class="education--container bd-grid">
+
+        <div class="eduacation--content">
+
+          <div class="education--time">
+
+            <!--<span class="education--rounder"></span>-->
+            <span class="education--line"></span>
+
+          </div>
+
+          <div class="education--data bd-grid">
+             <h3 class="education--title">Information and Communication Technologies Engineering Bachelor's Degree </h3>
+             <span class="education--studies">Puebla Instiitute Technological</span>
+             <span class="education--year">2019 - 2024</span>
+          </div>
+        </div>
+
+        <div class="eduacation--content">
+
+          <div class="education--time">
+
+            <!--<span class="education--rounder"></span>-->
+            <span class="education--line"></span>
+
+          </div>
+
+          <div class="education--data bd-grid">
+             <h3 class="education--title">Hardware Maintenance</h3>
+             <span class="education--studies"> Systems of IT Deparment | ITP </span>
+             <span class="education--year">2023 - 2024</span>
+          </div>
+        </div>
+
+        <div class="eduacation--content">
+
+          <div class="education--time">
+
+            <!--<span class="education--rounder"></span>-->
+            <span class="education--line"></span>
+
+          </div>
+
+          <div class="education--data bd-grid">
+             <h3 class="education--title"> Internet of Things </h3>
+             <span class="education--studies"> Intituto Tecnologico de Puebla</span>
+             <span class="education--year">2024</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--========================SKILLS==============================0-->
+
+    <section class="skills section" id="skills">
+
+      <h2 class="section-title">SKILLS</h2>
+
+      <div class="skills--content bd-grid">
+
+        <ul class="skills--data">
+
+          <li class="skills--name">
+            <span class="skills--circle"></span>HTML
+          </li>
+
+          <li class="skills--name">
+            <span class="skills--circle"></span>CSS
+          </li>
+          
+          <li class="skills--name">
+            <span class="skills--circle"></span>JavaScript
+          </li>
+
+ 
+         <li class="skills--name">
+            <span class="skills--circle"></span>React
+          </li>
+        </ul>
+
+        <ul class="skills--data">
+
+          <li class="skills--name">
+            <span class="skills--circle"></span> Playwright
+          </li>
+
+          <li class="skills--name">
+            <span class="skills--circle"></span> Git
+          </li>
+
+          <li class="skills--name">
+            <span class="skills--circle"></span> Typescript
+          </li>
+
+          <li class="skills--name">
+            <span class="skills--circle"></span> Linux
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+     </div>
+
+
+
+     <div class="resume--right">
+
+      <!-- ================================================= EXPERIENCE ============================================ -->
+
+      <section class="experience section" id="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience--container bd-grid">
+
+          <div class="experience--content">
+            <div class="experience--time">
+             <!-- <span class="experience--rounder"></span>-->
+              <span class="experience--line"></span>
+            </div>
+
+           <div class="experience--data bd-grid">
+
+              <h3 class="experience--title">Web development</h3>
+              <span class="experience--company"> 4 años </span>
+              <p class="experience--description">
+                Desarrollador Web con experiencia en la creación de aplicaciones responsivas y escalables, utilizando tecnologías como HTML5, CSS, JavaScript y frameworks modernos. 
+                Competente en React.js para el desarrollo de interfaces dinámicas y en Node.js con Express para la creación de APIs REST. Conocimientos en gestión de bases de datos (MySQL) y control de versiones con Git/GitHub. 
+                Enfocado en aplicar buenas prácticas, optimización de rendimiento y metodologías Ágil/Scrum para garantizar soluciones eficientes y mantenibles.
+              </p>
+            </div>
+          </div>
+
+          <div class="experience--content">
+            <div class="experience--time">
+             <!-- <span class="experience--rounder"></span> -->
+              <span class="experience--line"></span>
+            </div>
+
+           <div class="experience--data bd-grid">
+
+              <h3 class="experience--title"> Habilidades Técnicas (Tech Stack) </h3>
+              <span class="experience--company"> 2 años </span>
+              <p class="experience--description"> 
+              Lenguajes: JavaScript, Typescrip<br> 
+              Frameworks: React, Node.js <br>
+              Testing: Playwright, Selenium <br>
+              Bases de datos: MongoDB, MySQL <br>
+              Control de versiones: Git/GitHub <br>
+              Metodologías: Ágil (Scrum) <br>
+                </p>
+            </div>
+          </div>
+
+          <div class="experience--content">
+            <div class="experience--time">
+             <!-- <ul class="experience--rounder"></ul>-->
+              <ul class="experience--line"></ul>
+            </div>
+
+           <div class="experience--data bd-grid">
+
+              <h3 class="experience--title"> Experiencia Profesional </h3>
+              <span class="experience--company"> QA tester | Innormax | Enero 2025 </span>
+              <p class="experience--description">
+                Soy responsable de garantizar la calidad de la funcionalidad y me enfoco en identificar los bugs dentro de la aplicaión y 
+                dificultades de la aplicación en la empresa en la que me encuentro trabajando actualmente, llevando a cabo el testing y la 
+                automatización de pruebas con Playwright.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--CERTIFICATES-->
+
+      <section class="certificate section" id="certificates">
+        <h2 class="section-title">Certificates</h2>
+
+        <div class="certificate--container bd-grid">
+
+          <div class="certificate--content">
+            <h3 class="certificate--title">Introduction to Cibersecurity | Cisco</h3>
+            <p class="certificate--description">
+              Complete the Cisco Networking Academy® Introduction to Cyber Security course and demonstrate the
+              ability to explain the importance of cybersecurity.
+            </p>
+            <a href="https://www.netacad.com/certificates?issuanceId=d23e3b56-6d5c-46bf-a7fe-85b960c6aea5"
+            class="link-certificate"> <i class="ri-arrow-right-line"></i> View More </a>
+          </div>
+
+          <div class="certificate--content">
+            <h3 class="certificate--title">  Hacking Ético & Penetration Testing </h3>
+            <p class="certificate--description">
+              Course focus on ethical hacking to carry on offensice techniques. As well as a lot
+              tools and methods that are they applied usually in this kind of attacks   
+            </p>
+               
+            <a href="https://www.udemy.com/certificate/UC-59fc48db-34a9-43fb-a498-5fc0b4966308/" 
+               class="link-certificate"> <i class="ri-arrow-right-line"></i> View More </a> 
+          </div>
+
+          <div class="certificate--content">
+            <h3 class="certificate--title"> Cybersecurity Essentials | Cisco</h3>
+            <p class="certificate--description">
+               Describe the tactics, techniques and procedures used by criminal hackers, as well as
+               describe the principles of confidentiality, integrity and availability.
+            </p>
+            
+            <a href="https://www.netacad.com/es/certificates?issuanceId=84140ae3-3d4c-440f-8875-3a053360debf" 
+               class="link-certificate"> <i class="ri-arrow-right-line"></i> View More  </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================================== REFERENCES ======================================= -->
+
+      <section class="references section" id="references">
+        <h2 class="section-title">References</h2>
+
+        <div class="references--container bd-grid">
+          <div class="references--content bd-grid">
+            <span class="references--subtitle"> Head IT's Deparment at Puebla Institute Technological </span>
+            <h3 class="references--title"> Cuanalo Bautista </h3>
+            <ul class="references--contact">
+              <li> Phone :+52 222 127 5677 </li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div class="references--content bd-grid">
+            <span class="references--subtitle"> Engineering Consulting </span>
+            <h3 class="references--title"> Ramiro Tovon </h3>
+            <ul class="references--contact">
+              <li>Phone : +52 222 429 2481 </li>
+              <li> </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="languages section">
+        <h2 class="section-title">Languages</h2>
+
+        <div class="languages--container">
+          <ul class="languages--content bd-grid">
+            <li class="languages--name">
+               <span class="languages--circle"></span> Spanish
+            </li>
+
+            <li class="languages--name">
+              <span class="languages--circle"></span> English
+           </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- ======================================== INTERESTS =====================================-->
+
+      <section class="interests section">
+        <h2 class="section-title"> Hoobies </h2>
+
+        <div class="interests--container bd-grid">
+          <div class="interests--content">
+            <i class='bx bx-music intersts--icon' ></i>
+            <span class="interests--name"> Filmming </span>
+          </div>
+
+          <div class="interests--content">
+            <i class='bx bxs-movie-play intersts--icon' ></i>
+            <span class="interests--name"> Editing videos </span>
+          </div>
+
+          <div class="interests--content">
+            <i class='bx bx-code-alt intersts--icon' ></i>
+            <span class="interests--name"> Swimming </span>
+          </div>
+
+        </div>
+      </section>
+     </div>
+
+
+  </div>
+
+</main>
+
+
+<!--Scroll TOP-->
+
+<a href="#" class="scrolltop" id="scroll-top">
+  <i class='bx bx-chevrons-up' ></i>
+</a>
+
+
+
+
+<!--HTML2PDF-->
+<script src="./JS/html2pdf.bundle.min.js"></script>
+
+<!-- MAIN JS-->
+<script src="./JS/Menu.js"></script>
+
+  </body>
+</html>
