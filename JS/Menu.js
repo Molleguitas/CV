@@ -129,7 +129,7 @@ let opt = {
     filename:     'MyResume.pdf',
     image:        { type: 'jpeg', quality: .98 },
     html2canvas:  { scale: 8 },
-    jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    jsPDF:        { unit: 'mm', format: 'a3', orientation: 'portrait' }
   };
 
 
