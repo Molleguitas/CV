@@ -1,2 +1,2 @@
 # CV
-It contains my resume regarding my professional carrer
+It contains my resume regarding to my professional projects
