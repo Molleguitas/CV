@@ -127,9 +127,15 @@ let resumeButton = document.getElementById('resume-button')
 let opt = {
     margin:       0,
     filename:     'MyResume.pdf',
+<<<<<<< HEAD
     image:        { type: 'jpeg', quality: .98 },
     html2canvas:  { scale: 8 },
     jsPDF:        { unit: 'mm', format: 'a3', orientation: 'portrait' }
+=======
+    image:        { type: 'jpeg', quality: 1 },
+    html2canvas:  { scale: 8 },
+    jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+>>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
   };
 
 
