@@ -116,11 +116,7 @@ body.dark-theme{
 }
 
 .scale-cv .home--container{
-<<<<<<< HEAD
     gap: 1.2rem;
-=======
-    gap: 1.5rem;
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
 
 }
 
@@ -243,11 +239,7 @@ img{
 /*Class CSS*/
 
 .section{
-<<<<<<< HEAD
     padding: 1rem 0;
-=======
-    padding: 1.5rem 0;
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
 }
 
 .section-title{
@@ -257,22 +249,14 @@ img{
     text-transform: uppercase;
     letter-spacing: .35rem;
     text-align: center;
-<<<<<<< HEAD
     margin-bottom: var(--mb-2);
     margin-top: 10px;
-=======
-    margin-bottom: var(--mb-3);
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
 }
 
 /*Layout*/
 
 .bd-container{
-<<<<<<< HEAD
     max-width: 950px;
-=======
-    max-width: 968px;
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
     width: calc(100% - 3rem);
     margin-left: var(--mb-3);
     margin-right: var(--mb-3);
@@ -282,11 +266,7 @@ img{
 
 .bd-grid{
     display: grid;
-<<<<<<< HEAD
     gap: 2rem;
-=======
-    gap: 4rem;
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
 }
 
 .l-header{
@@ -361,7 +341,6 @@ img{
     margin-bottom: var(--mb-1);
 }
 
-<<<<<<< HEAD
 #cv {
   width: 210mm;
   min-height: 297mm;
@@ -372,8 +351,6 @@ img{
 
 
 
-=======
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
 /*         =========================  Show menu   =======================       */
 
 .show-menu{
@@ -488,10 +465,7 @@ img{
 
 .profile--description{
     text-align: center;
-<<<<<<< HEAD
     margin-bottom: 2rem;
-=======
->>>>>>> 46590a27d307c56eeb69c5f8e42084d349145ac8
 }
 
 
